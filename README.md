@@ -3,7 +3,7 @@
 <br/>
 </br>
 <p align="center">
-<img src="https://imgur.com/a/i0ubifn.png" title="WinFree">
+<img src="https://i.imgur.com/cLeRnXZ.png">
 </p>
 <br/>
 
