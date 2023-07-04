@@ -1,3 +1,5 @@
+# Credits to wrrulos
+
 ## 💻 Supported Windows Versions:
 
 * ✅ Windows 10
