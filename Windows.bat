@@ -64,7 +64,7 @@ echo.
 call :echo-align center "[6] Windows 11 Enterprise N         [12] Windows 10 Enterprise N"
 echo.
 echo.
- call :echo-align center "[13] Windows 11 Home"
+ call :echo-align center "[13] Windows 11 Home          [14] Windows 10 Home"
 echo.
 call :echo-align center "[0] EXIT"
 echo.
@@ -82,6 +82,7 @@ if %op%==10 goto Windows10EducationN
 if %op%==11 goto Windows10Enterprise
 if %op%==12 goto Windows10EnterpriseN
 if %op%==13 goto Windows11Home
+if %op%==14 goto Windows10Home
 if %op%==0 goto Exit
 goto Error
 
@@ -710,7 +711,7 @@ echo       `ooooooooooooo+ -oooooooooooooooooo`
 echo       `ooooooooooooo+ -oooooooooooooooooo`
 echo       `ooooooooooooo+ -oooooooooooooooooo`
 echo       `ooooooooooooo+ -ooooooooooooo+++++
-echo       `-------------. `---...............   Select correct number (1 - 12)
+echo       `-------------. `---...............   Select correct number (1 - 14)
 echo       `ooooooooooooo+ -oooooooooooooooooo`
 echo       `ooooooooooooo+ :oooooooooooooooooo`
 echo       `ooooooooooooo+ -oooooooooooooooooo`
@@ -735,7 +736,7 @@ echo       `ooooooooooooo+ -oooooooooooooooooo`
 echo       `ooooooooooooo+ -oooooooooooooooooo`
 echo       `ooooooooooooo+ -oooooooooooooooooo`
 echo       `ooooooooooooo+ -ooooooooooooo+++++
-echo       `-------------. `---...............   Select correct number (1 - 12)
+echo       `-------------. `---...............   Select correct number (1 - 14)
 echo       `ooooooooooooo+ -oooooooooooooooooo`
 echo       `ooooooooooooo+ :oooooooooooooooooo`
 echo       `ooooooooooooo+ -oooooooooooooooooo`
@@ -747,6 +748,53 @@ echo                                 ``..--::
 echo.
 ping localhost -n 4 >nul
 goto Menu
+
+::===================================================================================================================================================
+
+:Windows10Home
+color 0f
+cls
+echo.
+call :echo-align center " WINDOWS ACTIVATOR "
+echo.
+echo.
+call :echo-align center "You are selected Windows 10 Home."
+echo.
+call :echo-align center "[1] Continue Activation [2] Back to Menu"
+echo.
+set /p op="C:\Windows\Activator -> "
+if %op%==1 goto W10Home
+if %op%==2 goto Menu
+goto Error2
+
+:W10Home
+cls
+ping localhost -n 3 >nul
+slmgr.vbs /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
+slmgr.vbs /skms kms.digiboy.ir
+slmgr.vbs /ato
+color 0a
+echo.
+echo                                 `..---::/
+echo                  ``.. .:://++oooooooooooo`
+echo       `-::///++ooooo+ -oooooooooooooooooo`
+echo       `ooooooooooooo+ -oooooooooooooooooo`
+echo       `ooooooooooooo+ -oooooooooooooooooo`
+echo       `ooooooooooooo+ -oooooooooooooooooo`
+echo       `ooooooooooooo+ -oooooooooooooooooo`
+echo       `ooooooooooooo+ -ooooooooooooo+++++
+echo       `-------------. `---...............   Windows 10 Home Activated.
+echo       `ooooooooooooo+ -oooooooooooooooooo`
+echo       `ooooooooooooo+ :oooooooooooooooooo`
+echo       `ooooooooooooo+ -oooooooooooooooooo`
+echo       `ooooooooooooo+ -oooooooooooooooooo`
+echo       `ooooooooooooo+ -oooooooooooooooooo`
+echo        -::://+++oooo+ -oooooooooooooooooo`
+echo                  ```. `-:://+++oooooooooo`
+echo                                 ``..--::
+echo.
+pause >nul
+exit
 
 ::===================================================================================================================================================
 
