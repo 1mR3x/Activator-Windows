@@ -1,2 +1,8 @@
-# Activator-Windows
-Tool to activate Windows 10 and 11.
+## 💻 Supported Windows Versions:
+
+* ✅ Windows 10
+* ✅ Windows 11
+
+# 🕹 Run
+
+* Run Windows.bat as administrator
