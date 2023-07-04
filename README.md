@@ -1,5 +1,12 @@
 # Credits to wrrulos
 
+<br/>
+</br>
+<p align="center">
+<img src="https://imgur.com/a/i0ubifn" title="WinFree">
+</p>
+<br/>
+
 ## 💻 Supported Windows Versions:
 
 * ✅ Windows 10
